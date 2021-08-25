@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<link rel="stylesheet" href="design.css">
+		<script src="script1.js"></script>
+
+		<title>NekoManga</title>
+
+
+
+
+		<div class = "navs">
+		<a  href="Home.htm">	<img src="neko.png" class ="fin" > </a>
+
+		</div>
+	</header>
+
+	<body>
+
+		<div class="topnav">
+
+			<a  href="Home.htm">Home</a>
+			<a class="active" href="membership.htm"> Membership </a>
+			<a href="Login.htm">Login</a>
+ 
+		</div>
+
+		<div class = "text2">
+			
+			<h1><i>Membership Details</i></h1>
+<fieldset >
+			<p><b>Regular Membership</b> - This type of membership, enables the user to recieve notification
+			for the manga that they bookmarked, they will also be able to view the status of the mangas that they bookmarked. Since, this type of membership is free, there are lesser functions that can be performed in this type of account.</p>
+			<p><b>Premium Membership</b> - This type of membership, enables the user to recieve notifications, have earlier release date
+			for the manga that they bookmarked, they will also be able to view the status of the mangas that they bookmarked, they will also be excempt from any form of advertisements, and lastly they will also be able
+			to make request on mangas that they want to be translated. This type of account, will be collecting a monthly fee of 500 pesos.</p>
+			</fieldset>
+			
+		<div class = "text2">
+
+			<form onsubmit="create1()" id="form">
+
+			<h1><i>Account's Details</i></h1>
+			</div>
+			<fieldset>
+			<label class="block"> <div class = " text3 ">
+				<i><p> FirstName <br><input type = "text" id="FirstName" 
+				name="FirstName" placeholder="Your Firstname.." required> </p> 
+
+
+
+				<p> LastName <br> <input type = "text" id="LastName" 
+				name="LastName" placeholder="Your Lastname.." required> </p> 
+				
+				<i><p> Age <br><input type = "text" id="Age" 
+				name="Age" placeholder="Your Age.."  pattern="[0-9]{3}" required > </p> 
+				
+				<p> UserName<br> <input type = "text" id="UserName1" 
+				name="UserName" placeholder="Your UserName.." required></p> 
+				<p> Password<br> <input type = "password" id="Password1" 
+				name="Password" placeholder="Your Password.." required> </p> 
+				<p> Repeat Password<br> <input type = "password" id="Password2" 
+				name="Retype Password" placeholder="Retype Password.." required> </p>
+				<p> Account Type</p>
+				</i><input type="radio" id="Regular Account" name="Account Type" value="Regular Account">
+				<label for="Regular Account">Regular Account</label>
+				<input type="radio" id="Premium Account" name="Account Type" value="Premium Account">
+				<label for="Premium Account">Premium Account</label><br>
+				 <input type="submit" value="Submit">
+
+			</label>
+			</div>
+
+
+
+
+</body>

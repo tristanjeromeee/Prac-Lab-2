@@ -1,0 +1,153 @@
+
+/* Header */ 
+
+header{
+ background-color:#e9b7a8;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+
+.navs {
+
+  text-align:center;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.fin{
+	height:30%;
+	width:30%;
+	
+	margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* body */ 
+
+body {
+ background-color:#FFCA99;  
+   background-position:center;
+   font: 15px/1.5 Arial, Helvetica, sans-serif;
+
+   
+}
+
+
+/* Home */ 
+
+
+.text{
+ padding: 20px 0px 20px 0px;
+  color:black;
+  
+
+  text-align:center;	
+ 
+	
+  Margin:100px 0px 110px 0px;
+}
+.text1{
+ padding: 20px 10px 20px 10px;
+  color:black;
+  font-size:28;
+  color:black;
+  text-align:center;	
+  
+	
+  Margin:100px 0px 100px 0px;
+}
+
+/* Membership & Login */ 
+
+.text2{
+ padding: 20px 10px 0px 10px;
+  color:black;
+  font-size:28;
+  color:black;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+
+  
+	
+  Margin:100px 0px 0px 0px;
+}
+
+
+
+.text3 {
+
+
+  
+  color:black;
+  font: 28px/1.5 Arial, Helvetica, sans-serif;
+ 
+  text-align:Center;
+}
+
+
+
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: center;
+  Margin:30px;
+  width:30%
+  
+}
+
+
+
+.Login{
+	 color:black;
+  font: 38px/1.5 Arial, Helvetica, sans-serif;
+ 
+  text-align:Center;
+}
