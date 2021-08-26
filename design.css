@@ -167,6 +167,13 @@ input[type=submit] {
   border:2px solid black;
 }
 
+#freeManga div:hover {
+  opacity:0.8;
+  transition:500ms;
+ 
+}
+
+
 #freeManga button{
   width:150px;
   height:40px;
@@ -178,6 +185,7 @@ input[type=submit] {
 
 #freeManga button:hover{
   background-color:#FFCA99;  
+  transition:500ms;
 }
 
 #codeGeass {
