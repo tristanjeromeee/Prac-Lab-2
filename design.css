@@ -151,3 +151,63 @@ input[type=submit] {
  
   text-align:Center;
 }
+
+
+#freeManga {
+  
+  display:flex;
+  justify-content: space-around;
+  height:720px;
+  
+}
+
+#freeManga div {
+  height:400px;
+  width:300px;
+  border:2px solid black;
+}
+
+#freeManga button{
+  width:150px;
+  height:40px;
+  background-color: transparent;
+  border: 2px solid #FFCA99;  
+  color:white;
+  font-weight: bold;
+}
+
+#freeManga button:hover{
+  background-color:#FFCA99;  
+}
+
+#codeGeass {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("codeGeass.png");
+  background-size: cover;
+}
+
+#hunterxhunter {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("hunterxhunter.jpg");
+  background-size: cover;
+}
+
+#boruto {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("boruto.jpg");
+  background-size: cover;
+}
+
+#gintama {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("gintama.jpg");
+  background-size: cover;
+}
