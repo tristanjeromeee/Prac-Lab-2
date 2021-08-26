@@ -24,7 +24,7 @@ function create1(){
     let LastName = document.getElementById("LastName").value;
 
     if(Password1 === "" || Password2 === ""|| UserName1 === "" || Age === "" || FirstName ==="" || LastName=== "" ){
-        alert("Please Check the Fill up shit there seems a problem");
+        alert("Please Check the Fill up sheet there seems a problem");
     }
     else if( Password1 !== Password2){
         alert("Password Does not Match Retry Again")
